@@ -83,8 +83,9 @@ if [[ ${OS} == CentOS && $CentOS_RHEL_version == 7 ]];then
 fi
 
 #Install MCSManager-Bash
-wget -N --no-check-certificate -O /usr/local/bin/Mc https://raw.githubusercontent.com/Fcatme/MCSManager-Bash/master/Mc
-chmod +x /usr/local/bin/Mc
+cd /root
+wget https://raw.githubusercontent.com/Fcatme/MCSManager-Bash/master/Mc
+chmod +x /root/Mc
 
 #INstall Success
 echo 'MCSManager-Bash v0.1'

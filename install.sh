@@ -55,7 +55,7 @@ if [[ ${OS} == CentOS ]];then
     
 fi
 if [[ ${OS} == Debian ]];then
-    echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
+        echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
 	echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
 	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
 	apt-get update
@@ -83,13 +83,14 @@ if [[ ${OS} == CentOS && $CentOS_RHEL_version == 7 ]];then
 fi
 
 #Install MCSManager-Bash
-cd /root
+cd
 wget https://raw.githubusercontent.com/Fcatme/MCSManager-Bash/master/Mc
-chmod +x /root/Mc
+chmod +x Mc
 
 #INstall Success
 echo 'MCSManager-Bash v0.1'
 echo 'F喵博客地址:https://Fcat.me'
+echo '输入./Mc 选择启动方式'
 echo '安装完成！访问地址:http://IP:23333/'
 echo '初始账号:#master 密码:123456 '
 echo 'QQ Group:287215485'

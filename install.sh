@@ -38,18 +38,15 @@ workdir=$(pwd)
 
 #Install Basic Tools
 if [[ ${OS} == Ubuntu ]];then
-    echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
+        echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
 	echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
 	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
 	apt-get update
 	apt-get install oracle-java8-installer -y
 	apt-get install git git-core curl build-essential openssl libssl-dev -y
-	git clone https://github.com/nodejs/node.git
-        cd node
-	git checkout v9.2.0
-	./configure
-	make
-	make install	
+	curl -sL https://deb.nodesource.com/setup_9.x -o nodesource_setup.sh
+        bash nodesource_setup.sh
+	apt-get install nodejs -y	
 fi
 if [[ ${OS} == CentOS ]];then
 	
@@ -70,7 +67,6 @@ fi
 
 #Install MCSManager and MCSManager-Bash
 cd /home
-git clone https://github.com/Fcatme/MCSManager-Bash.git
 git clone https://github.com/Suwings/MCSManager.git
 cd /home/MCSManager
 npm install --production

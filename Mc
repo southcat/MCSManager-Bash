@@ -22,9 +22,9 @@ while :; do echo
 done
 
 if [[ $choice == 1 ]];then
-node /home/MCSManager/app.js 
+cd /home/MCSManager && node app.js 
 fi
 
 if [[ $choice == 2 ]];then
-nohup node /home/MCSManager/app.js > myLog.log 2>&1 &
+cd /home/MCSManager && nohup node app.js > myLog.log 2>&1 &
 fi

@@ -1,5 +1,6 @@
 # MCSManager-Bash
 MCSManager控制面板的一键安装脚本
+MCSManager开源地址https://github.com/Fcatme/MCSManager
 
 ## 更新日志 ##
 - 2017-11-19 v0.1正式版本

@@ -21,7 +21,6 @@ MCSManager开源地址https://github.com/Fcatme/MCSManager
 
 ## 缺点 ##
 - 第一次学写脚本勿喷！！！
-- 由于NodeJs是官方git地址编译安装所以略慢！
 - 其它系统暂未测试 [有好汉测试了告诉我一下！]
 
 

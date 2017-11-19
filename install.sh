@@ -1,6 +1,5 @@
 #!/bin/bash
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-. /home/MCSManager-Bash/config.sh
 
 #Check Root
 [ $(id -u) != "0" ] && { echo "Error: You must be root to run this script"; exit 1; }
@@ -72,7 +71,7 @@ fi
 
 #Install MCSManager and MCSManager-Bash
 cd /home
-git clone https://github.com/${GH_REPO}.git
+git clone https://github.com/Fcatme/MCSManager-Bash.git
 git clone https://github.com/Suwings/MCSManager.git
 cd /home/MCSManager
 npm install --production
@@ -84,7 +83,7 @@ if [[ ${OS} == CentOS && $CentOS_RHEL_version == 7 ]];then
 fi
 
 #Install MCSManager-Bash
-wget -N --no-check-certificate -O /usr/local/bin/Mc https://raw.githubusercontent.com/${GH_REPO}/master/Mc
+wget -N --no-check-certificate -O /usr/local/bin/Mc https://raw.githubusercontent.com/Fcatme/MCSManager-Bash/master/Mc
 chmod +x /usr/local/bin/Mc
 
 #INstall Success

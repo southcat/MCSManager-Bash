@@ -22,7 +22,7 @@ while :; do echo
 done
 
 if [[ $choice == 1 ]];then
-	ode /home/MCSManager/app.js 
+	node /home/MCSManager/app.js 
 fi
 
 if [[ $choice == 2 ]];then

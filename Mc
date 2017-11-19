@@ -14,7 +14,7 @@ echo "1.前台运行MCSManager"
 echo "2.后台运行MCSManager"
 while :; do echo
 	read -p "请选择： " choice
-	if [[ ! $choice =~ ^[1-5]$ ]]; then
+	if [[ ! $choice =~ ^[1-2]$ ]]; then
 		echo "输入错误! 请输入正确的数字!"
 	else
 		break	

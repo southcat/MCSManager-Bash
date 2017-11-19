@@ -44,7 +44,7 @@ if [[ ${OS} == Ubuntu ]];then
 	apt-get install oracle-java8-installer -y
 	apt-get install git git-core curl build-essential openssl libssl-dev -y
 	git clone https://github.com/nodejs/node.git
-    cd node
+        cd node
 	git checkout v9.2.0
 	./configure
 	make
@@ -63,7 +63,7 @@ if [[ ${OS} == Debian ]];then
 	apt-get install oracle-java8-installer
 	apt-get install git git-core curl build-essential openssl libssl-dev -y
 	git clone https://github.com/nodejs/node.git
-    cd node
+        cd node
 	git checkout v9.2.0
 	./configure
 	make
@@ -88,7 +88,6 @@ wget -N --no-check-certificate -O /usr/local/bin/Mc https://raw.githubuserconten
 chmod +x /usr/local/bin/Mc
 
 #INstall Success
-bash /usr/local/SSR-Bash-Python/self-check.sh
 echo 'MCSManager-Bash v0.1'
 echo 'F喵博客地址:https://Fcat.me'
 echo '安装完成！访问地址:http://IP:23333/'

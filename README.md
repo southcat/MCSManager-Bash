@@ -20,7 +20,6 @@ MCSManager开源地址https://github.com/Fcatme/MCSManager
 - 一键开启、关闭MCSManager控制面板
 
 ## 缺点 ##
-- 第一次学写脚本勿喷！！！
 - 其它系统暂未测试 [有好汉测试了告诉我一下！]
 
 

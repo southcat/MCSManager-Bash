@@ -6,12 +6,12 @@ MCSManager开源地址https://github.com/Fcatme/MCSManager
 - 2017-11-19 v0.1正式版本
 
 ## 系统支持 ##
-* Ubuntu 14 [未测试]
-* Ubuntu 16 [未测试]
-* Debian 7  [未测试]
-* Debian 8  [测试正常]
-* CentOS 6  [未测试]
-* CentOS 7  [测试正常]
+* Ubuntu 14
+* Ubuntu 16
+* Debian 7
+* Debian 8
+* CentOS 6
+* CentOS 7
 
 有好汉能测试的话，选择未测试的系统测试一下能正常使用告诉我 我好做更改！
 

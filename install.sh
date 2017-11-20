@@ -51,7 +51,7 @@ if [[ ${OS} == CentOS ]];then
 	yum install update
 	yum install -y gcc-c++ make clur java git wget
 	curl -sL https://rpm.nodesource.com/setup_9.x | sudo -E bash -
-	yum install nodejs -y    
+	yum install nodejs -y
 fi
 if [[ ${OS} == Debian ]];then
         echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list

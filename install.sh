@@ -85,7 +85,7 @@ chmod +x Mc
 #INstall Success
 echo 'MCSManager-Bash v0.1'
 echo 'F喵博客地址:https://Fcat.me'
-echo -e  '输入\033[31m ~/Mc \033[0m选择启动方式'
+echo '输入 ~/Mc 选择启动方式'
 echo '安装完成！访问地址:http://IP:23333/'
 echo '初始账号:#master 密码:123456 '
 echo 'QQ Group:287215485'

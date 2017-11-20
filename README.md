@@ -11,7 +11,7 @@ MCSManager开源地址https://github.com/Fcatme/MCSManager
 * Debian 7  [未测试]
 * Debian 8  [测试正常]
 * CentOS 6  [未测试]
-* CentOS 7  [未测试]
+* CentOS 7  [测试正常]
 
 有好汉能测试的话，选择未测试的系统测试一下能正常使用告诉我 我好做更改！
 

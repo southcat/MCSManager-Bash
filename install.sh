@@ -48,9 +48,10 @@ if [[ ${OS} == Ubuntu ]];then
 	apt-get install nodejs -y	
 fi
 if [[ ${OS} == CentOS ]];then
-	
-	yum install git -y
-    
+	yum install update
+	yum install -y gcc-c++ make clur java
+	curl -sL https://rpm.nodesource.com/setup_9.x | sudo -E bash -
+	yum install nodejs -y    
 fi
 if [[ ${OS} == Debian ]];then
         echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list

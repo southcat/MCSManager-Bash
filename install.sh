@@ -42,14 +42,14 @@ if [[ ${OS} == Ubuntu ]];then
 	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
 	apt-get update
 	apt-get install oracle-java8-installer -y
-	apt-get install git git-core curl build-essential openssl libssl-dev -y
+	apt-get install git git-core curl build-essential openssl libssl-dev wget -y
 	curl -sL https://deb.nodesource.com/setup_9.x -o nodesource_setup.sh
         bash nodesource_setup.sh
 	apt-get install nodejs -y	
 fi
 if [[ ${OS} == CentOS ]];then
 	yum install update
-	yum install -y gcc-c++ make clur java
+	yum install -y gcc-c++ make clur java git wget
 	curl -sL https://rpm.nodesource.com/setup_9.x | sudo -E bash -
 	yum install nodejs -y    
 fi
@@ -59,7 +59,7 @@ if [[ ${OS} == Debian ]];then
 	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
 	apt-get update
 	apt-get install oracle-java8-installer -y
-	apt-get install git git-core curl build-essential openssl libssl-dev -y
+	apt-get install git git-core curl build-essential openssl libssl-dev wget -y
 	curl -sL https://deb.nodesource.com/setup_9.x -o nodesource_setup.sh
         bash nodesource_setup.sh
 	apt-get install nodejs -y	

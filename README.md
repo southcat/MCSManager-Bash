@@ -13,9 +13,6 @@ MCSManager开源地址https://github.com/Fcatme/MCSManager
 * CentOS 6
 * CentOS 7
 
-有好汉能测试的话，选择未测试的系统测试一下能正常使用告诉我 我好做更改！
-
-
 ## 功能 ##
 - 一键开启、关闭MCSManager控制面板
 
